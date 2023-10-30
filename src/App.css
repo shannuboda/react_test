@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #2161cb;
+}
+.todo
+{
+  background: #fff;
+  width: 40rem;
+  padding: 2rem;
+  margin-top: 9rem;
+  margin-left: 20rem;
+  margin-bottom: 2rem;
+}
+.todo1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#input
+{
+  width: 35rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: blue;
+}
+.todo1 button
+{
+  width: 4rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: .4rem;
+  background: blue;
+  color: #fff;
+}
+.todo2
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: .5rem;
+  border-radius: 10px;
+  background: #884dff;
+  color: black;
+}
+.todo2_1 button
+{
+  width: 2.5rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.todo2_1 button:nth-child(1)
+{
+  background: maroon;
+  color: #fff;
+}
+.todo2_1 button:nth-child(2)
+{
+  background: orange;
+  color: #fff;
+}
+@media (max-width: 768px) {
+ 
+  body
+  {
+   padding: 3.2rem;   
+   margin-top: -9rem;
+  }
+ .todo
+ {
+
+  margin-left: -2rem;
+  max-width: 22rem;
+  width: 24rem;
+ }
+}
+@media (min-width: 768px) and (max-width: 1024px){ 
+  .todo
+ {
+
+  margin-left: -2.5rem;
+  max-width: 150rem;
+  width: 44rem;
+ }
+} 
+
